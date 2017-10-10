@@ -1,0 +1,150 @@
+.header{
+	background: url('../img/bg-header.png') top center no-repeat;
+	height: 77rem;
+	background-size: 100%;
+
+	@media(max-width: 1600px){
+		height: 56rem;
+	}
+
+	@media (max-width: 1140px){
+		height: 48rem;
+	}
+	
+	@media(max-width: 968px){
+		height: 40rem;
+	}
+
+	@media(max-width: 768px){
+		height: 34rem;
+	}
+
+	@media(max-width: 660px){
+		height: 28rem;
+	}
+}
+
+.header-container{
+	width: 114rem;
+	margin: 0 auto;
+	padding-top: 4rem;
+
+	@media (max-width: 1140px){
+		width: 86rem;
+	}
+
+	@media (max-width: 920px){
+		width: 66rem;
+	}
+
+	@media (max-width: 786px){
+		width: 52rem;
+	}
+}
+
+.top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 24rem;
+
+	@media (max-width: 1140px){
+		margin-bottom: 16rem;
+	}
+
+	@media (max-width: 920px){
+		margin-bottom: 10rem;
+	}
+
+	@media (max-width: 786px){
+		margin-bottom: 6rem;
+	}
+}
+
+.logo a{
+	color: #fff;
+	font-size: 2.4rem;
+	font-family: 'Montserrat Bold', sans-serif;
+}
+
+.nav{
+	ul{
+		display: flex;
+		flex-direction: row;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.4rem;
+
+
+		li{
+			margin-left: 3rem;
+
+			@media (max-width: 1140px){
+				margin-left: 2rem;
+			}
+
+			@media (max-width: 920px){
+				margin-left: 1rem;
+			}
+		}
+
+		li a{
+			color: #fff;
+		}
+	}
+}
+
+.captions{
+	text-align: center;
+	color: #fff;
+
+	h1{
+		font-family: "Montserrat", sans-serif;
+		font-size: 4.8rem;
+		margin: 0;
+
+		@media (max-width: 1140px){
+			font-size: 4rem;
+		}
+
+		@media (max-width: 1140px){
+			font-size: 3.2rem;
+		}
+	}
+
+	p{
+		font-family: "RobotoSlab", sans-serif;
+		font-size: 2rem;
+		margin: 3rem 0 4rem;
+
+		@media (max-width: 1140px){
+			font-size: 1.5rem;
+			margin: 2rem 0 3rem;
+		}
+
+		@media (max-width: 768px){
+			font-size: 1.2rem;
+			margin: 1rem 0 2rem;
+		}
+	}
+
+	button{
+		font-family: "Montserrat", sans-serif;
+		font-size: 1.6rem;	
+		color: #fff;
+		background: transparent;
+		border-radius: 3px;
+		border: 2px solid white;
+		text-transform: uppercase;
+		padding: 1rem 3rem;
+
+		@media (max-width: 1140px){
+			font-size: 1.2rem;
+			padding: .8rem 2.6rem;
+		}
+
+		@media (max-width: 768px){
+			font-size: .8rem;
+			padding: .8rem 2rem;
+		}
+	}
+}

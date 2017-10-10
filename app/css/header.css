@@ -1,0 +1,156 @@
+.header {
+  background: url('../img/bg-header.png') top center no-repeat;
+  height: 77rem;
+  background-size: 100%;
+}
+@media (max-width: 1600px) {
+  .header {
+    height: 56rem;
+  }
+}
+@media (max-width: 1140px) {
+  .header {
+    height: 48rem;
+  }
+}
+@media (max-width: 968px) {
+  .header {
+    height: 40rem;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    height: 34rem;
+  }
+}
+@media (max-width: 660px) {
+  .header {
+    height: 28rem;
+  }
+}
+.header-container {
+  width: 114rem;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+@media (max-width: 1140px) {
+  .header-container {
+    width: 86rem;
+  }
+}
+@media (max-width: 920px) {
+  .header-container {
+    width: 66rem;
+  }
+}
+@media (max-width: 786px) {
+  .header-container {
+    width: 52rem;
+  }
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24rem;
+}
+@media (max-width: 1140px) {
+  .top {
+    margin-bottom: 16rem;
+  }
+}
+@media (max-width: 920px) {
+  .top {
+    margin-bottom: 10rem;
+  }
+}
+@media (max-width: 786px) {
+  .top {
+    margin-bottom: 6rem;
+  }
+}
+.logo a {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: 'Montserrat Bold', sans-serif;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+}
+.nav ul li {
+  margin-left: 3rem;
+}
+@media (max-width: 1140px) {
+  .nav ul li {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 920px) {
+  .nav ul li {
+    margin-left: 1rem;
+  }
+}
+.nav ul li a {
+  color: #fff;
+}
+.captions {
+  text-align: center;
+  color: #fff;
+}
+.captions h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.8rem;
+  margin: 0;
+}
+@media (max-width: 1140px) {
+  .captions h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 1140px) {
+  .captions h1 {
+    font-size: 3.2rem;
+  }
+}
+.captions p {
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 2rem;
+  margin: 3rem 0 4rem;
+}
+@media (max-width: 1140px) {
+  .captions p {
+    font-size: 1.5rem;
+    margin: 2rem 0 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .captions p {
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem;
+  }
+}
+.captions button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid white;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+}
+@media (max-width: 1140px) {
+  .captions button {
+    font-size: 1.2rem;
+    padding: .8rem 2.6rem;
+  }
+}
+@media (max-width: 768px) {
+  .captions button {
+    font-size: .8rem;
+    padding: .8rem 2rem;
+  }
+}
